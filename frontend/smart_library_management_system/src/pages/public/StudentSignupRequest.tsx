@@ -16,7 +16,8 @@ const StudentSignupRequest = () => {
         <form onSubmit={handleSubmit} className="auth-form">
           <input type="text" placeholder="Name" required />
           <input type="email" placeholder="Email" required />
-          <input type="file" />
+          <label>Upload Your Photo</label>
+          <input type="file" accept="image/*" />
           <input type="password" placeholder="Password" required />
           <input type="password" placeholder="Re-enter Password" required />
 
