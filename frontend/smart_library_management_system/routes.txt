@@ -4,7 +4,7 @@ SMART LIBRARY MANAGEMENT SYSTEM - ALL ROUTES
 
 PUBLIC ROUTES
 =============
-/                           - Librarian Dashboard (Homepage)
+/                           - Student Login (Homepage)
 /request-signup             - Student Sign Up Request
 
 
@@ -39,7 +39,7 @@ ACCESS RULES
 ==================================================
 
 VISIBLE ROUTES (Public/Linked):
-- / (Librarian Dashboard - Current Homepage)
+- / (Student Login - Current Homepage)
 
 HIDDEN ROUTES (Direct URL access only):
 - All librarian routes (/librarian/*)

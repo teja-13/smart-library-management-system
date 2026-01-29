@@ -30,7 +30,7 @@ import AdminManageBooks from "./pages/admin/ManageBooks";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<LibrarianDashboard />} />
+      <Route path="/" element={<StudentLogin />} />
       <Route path="/request-signup" element={<StudentSignupRequest />} />
 
       <Route path="/student" element={<StudentLayout />}>

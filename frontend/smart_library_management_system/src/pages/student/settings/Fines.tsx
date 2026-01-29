@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 const Fines = () => {
   const fineDetails = [
     { book: "DBMS", fine: "₹0" },
